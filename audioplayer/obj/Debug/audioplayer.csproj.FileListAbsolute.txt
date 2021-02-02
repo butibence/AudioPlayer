@@ -1,0 +1,15 @@
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\audioplayer.csprojAssemblyReference.cache
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\MainWindow.g.cs
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\App.g.cs
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\audioplayer_MarkupCompile.cache
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\audioplayer_MarkupCompile.lref
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\bin\Debug\audioplayer.exe.config
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\bin\Debug\audioplayer.exe
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\bin\Debug\audioplayer.pdb
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\MainWindow.baml
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\audioplayer.g.resources
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\audioplayer.Properties.Resources.resources
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\audioplayer.csproj.GenerateResource.cache
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\audioplayer.csproj.CoreCompileInputs.cache
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\audioplayer.exe
+C:\Users\Buti Bence\Documents\Iskola\KompProg\audioplayer\obj\Debug\audioplayer.pdb
