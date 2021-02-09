@@ -1,0 +1,23 @@
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MP3.csprojAssemblyReference.cache
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MainWindow.g.cs
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\App.g.cs
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MP3_MarkupCompile.cache
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MP3_MarkupCompile.lref
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MainWindow.baml
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MP3.g.resources
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MP3.pdb
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\bin\Debug\MP3.exe.config
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\bin\Debug\MP3.exe
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\bin\Debug\MP3.pdb
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MP3.Properties.Resources.resources
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MP3.csproj.GenerateResource.cache
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MP3.csproj.CoreCompileInputs.cache
+C:\Users\tsoho\Desktop\mp3_player\MP3\MP3\obj\Debug\MP3.exe
+C:\Users\Buti Bence\Desktop\adad\mp3_player-main\mp3_player\MP3\MP3\obj\Debug\MP3.csprojAssemblyReference.cache
+C:\Users\Buti Bence\Desktop\adad\mp3_player-main\mp3_player\MP3\MP3\obj\Debug\MainWindow.g.cs
+C:\Users\Buti Bence\Desktop\adad\mp3_player-main\mp3_player\MP3\MP3\obj\Debug\App.g.cs
+C:\Users\Buti Bence\Desktop\adad\mp3_player-main\mp3_player\MP3\MP3\obj\Debug\MP3_MarkupCompile.cache
+C:\Users\Buti Bence\Desktop\adad\mp3_player-main\mp3_player\MP3\MP3\obj\Debug\MP3_MarkupCompile.lref
+C:\Users\Buti Bence\Desktop\adad\mp3_player-main\mp3_player\MP3\MP3\obj\Debug\MainWindow.baml
+C:\Users\Buti Bence\Desktop\adad\mp3_player-main\mp3_player\MP3\MP3\obj\Debug\MP3.g.resources
+C:\Users\Buti Bence\Desktop\adad\mp3_player-main\mp3_player\MP3\MP3\obj\Debug\MP3.pdb

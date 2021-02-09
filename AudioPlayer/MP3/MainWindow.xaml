@@ -1,0 +1,84 @@
+﻿<Window x:Class="Audioplayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Audioplayer"
+        mc:Ignorable="d"
+        Title="AudioPlayer" Height="551.995" Width="534.593" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="adadad.jpg"/>
+    </Window.Background>
+    <Grid Margin="10,10,0,-5" HorizontalAlignment="Left" Width="515">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="500*"/>
+        </Grid.RowDefinitions>
+        <ListBox x:Name="SongsListBox" Height="293" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="15" MouseDoubleClick="SongsListBox_MouseDoubleClick" Foreground="White" SelectionChanged="SongsListBox_SelectionChanged" Grid.Row="1" HorizontalAlignment="Left" Width="281">
+            <ListBox.Background>
+                <ImageBrush/>
+            </ListBox.Background>
+        </ListBox>
+        <Button x:Name="STOP" Content="" HorizontalAlignment="Left" Margin="103,364,0,0" VerticalAlignment="Top" Width="90" Click="stop_Click" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="85" RenderTransformOrigin="0.5,0.5" Grid.Row="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.371"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.243"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="stop1.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Slider Name="volumeSlider" VerticalAlignment="Center" ValueChanged="ChangeMediaVolume" 
+       Minimum="0" Maximum="1" Value="0.5" Margin="142,46,0,449" RenderTransformOrigin="0.703,1.127" Thumb.DragDelta="VolumeSlider_DragDelta" Height="21" Background="#FFFB0000" Grid.Row="1" HorizontalAlignment="Left" Width="289">
+
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="269.672"/>
+                    <TranslateTransform X="-22.446" Y="28.334"/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+
+        <Button x:Name="NEXT" Content="" HorizontalAlignment="Left" Margin="395,354,0,0" VerticalAlignment="Top" Width="110" Height="100" FontSize="20" Click="NextButton_Click" Foreground="{x:Null}" BorderBrush="{x:Null}" Grid.Row="1">
+            <Button.Background>
+                <ImageBrush ImageSource="next2 (2).png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ADD" Content="" HorizontalAlignment="Left" Margin="395,8,0,0" VerticalAlignment="Top" Width="110" Height="110" Click="AddSongsButton_Click" Foreground="White" FontSize="18" BorderBrush="{x:Null}" Grid.Row="1" >
+            <Button.Background>
+                <ImageBrush ImageSource="loadiing.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="PLAY_PAUSE"  HorizontalAlignment="Right" Margin="0,358,200,0" VerticalAlignment="Top" Width="110" Height="100" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Click="PlayPauseButton_Click" Foreground="{x:Null}" RenderTransformOrigin="0.466,0.441" Grid.Row="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="lejatszas.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="PREV"  HorizontalAlignment="Left" Margin="0,358,0,0" VerticalAlignment="Top" Width="110" Height="100" Click="elozo" Foreground="{x:Null}" BorderBrush="{x:Null}" Grid.Row="1">
+            <Button.Background>
+                <ImageBrush ImageSource="prev2.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="DEL" Content="" HorizontalAlignment="Left" Margin="395,123,0,0" VerticalAlignment="Top" Width="110" Height="119" Click="RemoveSongButton_Click" Foreground="{x:Null}" FontSize="18" BorderBrush="{x:Null}" Grid.Row="1">
+            <Button.Background>
+                <ImageBrush ImageSource="delete1.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="REPLAY" Content="" HorizontalAlignment="Left" Margin="306,354,0,0" VerticalAlignment="Top" Width="110" Height="100"  TextOptions.TextHintingMode="Fixed" Click="RepeatButton_Click" Foreground="White" RenderTransformOrigin="4.69,2.73" BorderBrush="{x:Null}" Grid.RowSpan="1" Grid.Row="1">
+            <Button.Background>
+                <ImageBrush ImageSource="rep22.png"/>
+            </Button.Background>
+        </Button>
+        <Slider x:Name="PositionSlider" Thumb.DragStarted="PositionSlider_DragStarted" Thumb.DragCompleted="PositionSlider_DragCompleted" HorizontalAlignment="Left" Margin="10,331,0,0" VerticalAlignment="Top" Height="22" Width="346" Maximum="1" TickPlacement="BottomRight" LargeChange="0" Foreground="Black" Background="Red" BorderBrush="White" IsTabStop="False" ValueChanged="PositionSlider_ValueChanged" IsEnabled="False" Grid.Row="1"/>
+        <Label x:Name="PositionLabel1" Content="00:00/00:00" HorizontalAlignment="Left" Margin="361,317,0,0" VerticalAlignment="Top" Height="37" Width="112" VerticalContentAlignment="Bottom" FontSize="20" Foreground="Black" RenderTransformOrigin="1,0.622" Grid.Row="1" Background="Red"/>
+    </Grid>
+
+
+
+</Window>
